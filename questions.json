@@ -365,7 +365,7 @@
         "b": "nltk.tokenize(texto)",
         "c": "nltk.tokenize.sent_tokenize(texto)",
         "d": "nltk.tokenize.word_tokenize(texto)",
-        "correct": ["a", "d"]
+        "correct": "a"
     },
     {
         "Question": "¿Qué relación hay entre los processing resources y las applications de GATE?",
