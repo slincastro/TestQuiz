@@ -1,0 +1,203 @@
+[
+    { 
+        "Question": "La instrucción Z = np.dot(np.ones((5,3)), np.ones((3,2)))", 
+        "a":"Realiza la multiplicación matricial de una matriz 5x3 de unos por una matriz de 3x2 de unos.", 
+        "b":"Realiza la división matricial de una matriz 5x3 de unos entre una matriz de 3x2 de unos.", 
+        "c":"Realiza la inversa de la multiplicación de las matrices especificadas", 
+        "d":"Multiplica los elementos en las mismas posiciones.",
+        "correct": "a"
+    },
+    {
+        "Question": "Las instrucciones Z = np.random.random(10) Z[Z.argmax()] = 0", 
+        "a":"Crean un vector de tamaño 10 con todos los valores igual a 1 y a continuación se reemplaza el máximo valor por 0.", 
+        "b":"Crean un vector aleatorio de tamaño 10 y se reemplaza el máximo valor por 0.", 
+        "c":"Crean un vector de tamaño 10 con valores aleatorios y a continuación se recuperan las posiciones que tienen valor igual a 0.", 
+        "d":"Crean un vector aleatorio de tamaño 10 y se reemplaza el mínimo valor por 0.",
+        "correct": "b"
+    },
+    {
+        "Question": "La instrucción ls -R /usr", 
+        "a":"Lista todos los archivos del directorio usr pero no los subdirectorios.", 
+        "b":"Lista todos los subdirectorios del directorio usr pero no los archivos.", 
+        "c":"Lista todos los archivos del directorio usr y sus subdirectorios.", 
+        "d":"Lista todos los archivos del directorio que no sean directorios.",
+        "correct": "c"
+    },
+    {
+        "Question": "La instrucción pd.DataFrame(data={'col_1': [0.12, 7, 45, 10], 'col_2': [0.9, 9, 34, 11]}, columns=['col_1', 'col_2', 'col_3'])", 
+        "a":"Crea un dataframe con 4 columnas y 3 filas.", 
+        "b":"Crea un dataframe con 3 columnas y 4 filas.", 
+        "c":"Crea un dataframe con dos filas y dos columnas.", 
+        "d":"Produce un error al no corresponderse el número de columnas con las definidas en los datos.",
+        "correct":"b"
+    },
+    {
+        "Question": "¿Cómo se obtienen en SQL todos los nombres de personas que comienzan con 'Pepe'?",
+        "a":"LIKE 'Pepe%'.", 
+        "b":"LIKE 'Pepe*'.", 
+        "c":"LIKE 'Pepe$'.", 
+        "d":"LIKE '%Pepe'.",
+        "correct":"a"
+    },
+    {
+        "Question": "¿Qué devuelve una sentencia SELECT sin la cláusula WHERE?", 
+        "a":"Todas las columnas de la tabla, pero no las filas.", 
+        "b":"Todas las filas de la tabla.", 
+        "c":"Una sentencia SELECT siempre debe tener una cláusula WHERE.", 
+        "d":"Siempre devuelve un resultado vacío.",
+        "correct":"b"
+    },
+    {
+        "Question": "¿Qué instrucción permite eliminar el contenido de una tabla, pero sin borrar su estructura?", 
+        "a":"DELETE TABLE.", 
+        "b":"TRUNCATE TABLE.", 
+        "c":"DROP TABLE.", 
+        "d":"ALTER TABLE.",
+        "correct":"b"
+    },
+    {
+        "Question": "Dado un fichero de texto ¿Qué comandos de Bash usaríamos para extraer la línea anterior a las 3 últimas?",
+        "a":"cat fichero | head -3| tail -1| tee fichero2", 
+        "b":"cat fichero | cut -d'\\n' -f 1", 
+        "c":"cat fichero | tail -4 | head -1", 
+        "d":"grep '4,1' fichero.",
+        "correct":"c"
+    },
+    {
+        "Question": "En GitHub, una Pull Request es", 
+        "a":"Una solicitud para mezclar todas las ramas activas en las ramas 'master' o 'main'.", 
+        "b":"Una solicitud para crear una rama a partir de otra rama.", 
+        "c":"Una solicitud para mezclar una rama en otra rama.", 
+        "d":"Una operación que hace efectiva la mezcla de una rama con otra rama.",
+        "correct":"c"
+    },
+    {
+        "Question": "Dadas dos tablas SQL, a y b, relacionadas por una clave, ¿qué operación permite realizar consultas de datos cruzados entre las mismas?", 
+        "a":"UNION.", 
+        "b":"SELECT * FROM a, b.", 
+        "c":"ALTER.", 
+        "d":"JOIN.",
+        "correct":"d"
+    },
+    {
+        "Question": "¿Cuál sería el resultado de la ejecución de la siguiente sentencia python? ' '.join(['en', 'un', 'lugar'] + 'de,la,mancha'.split(','))", 
+        "a":"' de la mancha en un lugar'.", 
+        "b":"'en,un,lugar,de,la,mancha'.", 
+        "c":"['en', 'un', 'lugar', 'de', 'la', 'mancha'].", 
+        "d":"'en un lugar de la mancha'.",
+        "correct":"d"
+    },
+    {
+        "Question": "En Python las excepciones son:", 
+        "a":"Mecanismos para imprimir por consola una situación de error.", 
+        "b":"Mecanismos para interrumpir la ejecución de una sentencia y pasar a la siguiente.", 
+        "c":"Mecanismos para interrumpir la ejecución de bucles.", 
+        "d":"Mecanismos para interrumpir la ejecución de una rutina cuando se dan situaciones inesperadas.",
+        "correct":"d"
+    },
+    {
+        "Question": "¿Qué hace el comando grep -v 'foo' fichero.txt?", 
+        "a":"Imprime el número de líneas que contienen el texto 'foo'.", 
+        "b":"Busca las líneas que contengan el texto 'foo' e imprime información adicional.", 
+        "c":"Imprime de forma literal aquellas líneas que no contengan el texto 'foo'.", 
+        "d":"Imprime el manual del comando grep.",
+        "correct":"c"
+    },
+    {
+        "Question": "¿Cuáles son las características de los almacenes de datos?",
+        "a": "Orientados a temas, no integrados, cambiantes en el tiempo, no volátiles.",
+        "b": "Orientados a temas, integrados, cambiantes en el tiempo, no volátiles.",
+        "c": "Orientados a temas, integrados, fijos en el tiempo, no volátiles.",
+        "d": "Orientados a temas, no integrados, fijos en el tiempo, volátiles.",
+        "correct": "b"
+    },
+    {
+        "Question": "¿Cuál de las siguientes afirmaciones es falsa?",
+        "a": "El proceso ETL permite unificar fuentes.",
+        "b": "El proceso ETL permite limpiar los datos, eliminando y corrigiendo errores.",
+        "c": "El proceso ETL permite estructurar y homogeneizar los datos.",
+        "d": "El proceso ETL permite garantizar la normalización de la base de datos.",
+        "correct": "d"
+    },
+    {
+        "Question": "En Pentaho Data Integration:",
+        "a": "Los saltos no se pueden editar.",
+        "b": "Una transformación es una red de tareas lógicas llamadas saltos.",
+        "c": "Los pasos de una transformación nunca se inician y se ejecutan en paralelo.",
+        "d": "Los flujos de trabajo se crean con pasos a medida que crean transformaciones y trabajos.",
+        "correct": "d"
+    },
+    {
+        "Question": "¿Cuál de las siguientes es una característica de las metodologías y herramientas de inteligencia de negocio?",
+        "a": "Orientadas a especialistas en el manejo de tecnologías.",
+        "b": "Soporte para la toma de decisiones.",
+        "c": "Acceso controlado de usuarios a las herramientas.",
+        "d": "El usuario no puede analizar los datos.",
+        "correct": "b"
+    },
+    {
+        "Question": "Pentaho es:",
+        "a": "Una suite de herramientas on cloud.",
+        "b": "Una suite de herramientas BI open source.",
+        "c": "Una suite de herramientas de diseño gráfico.",
+        "d": "La evolución de Microsoft BI.",
+        "correct": "b"
+    },
+    {
+        "Question": "¿Qué beneficio tiene el uso de una herramienta de ETL?",
+        "a": "Facilidad para gestionar y entender los procesos ETL.",
+        "b": "Precisión geométrica.",
+        "c": "Reutilización.",
+        "d": "Generación mediante herramientas drag and drop.",
+        "correct": "a"
+    },
+    {
+        "Question": "Los data warehouses de Kimball:",
+        "a": "Tienen un tiempo de desarrollo y puesta en producción mayor que los de Inmon.",
+        "b": "Tienen la ventaja de que mantenimiento a medida que crece el data warehouse es sencillo.",
+        "c": "Se basan en una estrategia bottom-up de diseño.",
+        "d": "Parten de una visión no departamental del data warehouse.",
+        "correct": "c"
+    },
+    {
+        "Question": "¿Qué capas se pueden diferenciar en un sistema de inteligencia de negocio tradicional?",
+        "a": "Capa de integración, capa de aplicación, capa base de datos.",
+        "b": "Capa de presentación, capa de integración, capa de aplicación, capa base de datos.",
+        "c": "Capa de presentación, capa de aplicación, capa base de datos.",
+        "d": "Capa de almacenamiento distribuida, capa de integración y capa de aplicación.",
+        "correct": "c"
+    },
+    {
+        "Question": "¿Qué fase del proceso ETL se recomienda que albergue los procesos de data quality o calidad del dato?",
+        "a": "Fase de extracción.",
+        "b": "Fase de transformación.",
+        "c": "Fase de carga.",
+        "d": "Fase de ingestión.",
+        "correct": "b"
+    },
+    {
+        "Question": "¿Qué símbolo representa el primer paso de un job en PDI?",
+        "a": "Una bandera.",
+        "b": "Un punto.",
+        "c": "Una casa (símbolo de inicio o home).",
+        "d": "Un triángulo verde (símbolo play).",
+        "correct": "d"
+    },
+    {
+        "Question": "La integridad referencial se puede considerar una propiedad:",
+        "a": "Cuantitativa.",
+        "b": "Categórica.",
+        "c": "De integridad de la base de datos.",
+        "d": "De garantía de generación de cross joins.",
+        "correct": "c"
+    },
+    {
+        "Question": "¿Cuál de las siguientes afirmaciones es falsa?",
+        "a": "La inteligencia de negocio está orientada a alta dirección y a otros ámbitos más operativos.",
+        "b": "Business intelligence y big data son conceptos excluyentes.",
+        "c": "Las tecnologías de inteligencia de negocio se integran con big data y viceversa.",
+        "d": "El uso de técnicas de machine learning es exclusivo de big data.",
+        "correct": "b"
+    }
+]
+
