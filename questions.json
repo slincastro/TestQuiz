@@ -310,6 +310,654 @@
         "c": "Apriori.",
         "d": "Dropout.",
         "correct": "c"
+    },
+    {
+        "Question": "¿Qué significan las siglas STT en NLP?",
+        "a": "Matriz que representa los documentos en los buscadores de documentos.",
+        "b": "Conversión de voz a texto.",
+        "c": "Conversión de texto a voz.",
+        "d": "Sound to text.",
+        "correct": "b"
+    },
+    {
+        "Question": "¿Qué significan las siglas IR en NLP?",
+        "a": "Extracción de información.",
+        "b": "Recuperación de entidades.",
+        "c": "Relaciones entre entidades (named entities).",
+        "d": "Recuperación de información.",
+        "correct": "d"
+    },
+    {
+        "Question": "¿Es posible crear una cadena NLP con una CFG como último elemento de la cadena, si esta no incluye un análisis morfológico?",
+        "a": "No es posible, ya que sin un análisis morfológico la CFG dará error.",
+        "b": "No es posible porque, aunque la CFG no dé error, finalmente no se formarán árboles sintácticos.",
+        "c": "Sí es posible, pero no es usual; normalmente las CFG no efectúan el análisis morfológico con sus propias reglas y no existe un analizador morfológico independiente antes de la CFG.",
+        "d": "Sí es posible y es lo más recomendable; es mejor que las CFG efectúen el análisis morfológico con sus propias reglas.",
+        "correct": "d"
+    },
+    {
+        "Question": "El resultado de una vectorización de textos es el siguiente: [el/0'2, perro/0'3, tiene/1, un/0'1, amigo/1]. ¿Qué algoritmo se ha utilizado?",
+        "a": "Algoritmo TF, porque se contabiliza la frecuencia relativa de los tokens.",
+        "b": "Algoritmo TFIDF, porque se contabiliza la frecuencia relativa de los tokens.",
+        "c": "Algoritmo LDA, porque es una matriz de palabras y topics.",
+        "d": "Algoritmo TF, porque contabiliza la relevancia de los tokens.",
+        "correct": "b"
+    },
+    {
+        "Question": "¿Qué representa una intención en las aplicaciones de chatbot?",
+        "a": "Representa la intención que tiene el propio bot a la hora de responder.",
+        "b": "Representa el análisis de sentimiento asociado al bot.",
+        "c": "Representa la intención genérica de la frase de un usuario detectada por el bot.",
+        "d": "Representa la entidad detectada en una frase por el bot (por ejemplo, un tipo de comida).",
+        "correct": "c"
+    },
+    {
+        "Question": "Enumerar todos los rasgos atómicos y sus valores correspondientes en esta estructura de rasgos:",
+        "a": "lex:telescope, cat:N, glos:telescope, root_pos:N.",
+        "b": "lex:telescope, cat:N, glos:telescope, numer:SG, pos:N, root_pos:N.",
+        "c": "lex:telescope, cat:N, glos:telescope, numer:SG, 3sg:+, pos:N, proper:_, verbal:_, root_pos:N.",
+        "d": "lex:telescope, cat:N, glos:telescope, 3sg:+, root_pos:N.",
+        "correct": "c"
+    },
+    {
+        "Question": "¿Con qué comando se pueden obtener los tokens de un texto?",
+        "a": "nltk.word_tokenize(texto)",
+        "b": "nltk.tokenize(texto)",
+        "c": "nltk.tokenize.sent_tokenize(texto)",
+        "d": "nltk.tokenize.word_tokenize(texto)",
+        "correct": ["a", "d"]
+    },
+    {
+        "Question": "¿Qué relación hay entre los processing resources y las applications de GATE?",
+        "a": "Una application es una cadena NLP formada por diversos processing resources.",
+        "b": "Un processing resource es una cadena NLP formada por diversas applications.",
+        "c": "Una application es una cadena NLP formada por processing resources y por otra cadena de corpus.",
+        "d": "Un processing resource es una cadena NLP cuyo input son los documentos de un corpus.",
+        "correct": "a"
+    },
+    {
+        "Question": "¿Tiene alguna ventaja el uso del algoritmo TFIDF frente a TF?",
+        "a": "No tiene ventajas; de hecho, suele usarse más TF por su rapidez de ejecución.",
+        "b": "No tiene ventajas, simplemente son dos algoritmos con utilidades distintas.",
+        "c": "Sí, TFIDF tiene la ventaja de distribuir el peso relativo de cada término, de forma que los términos más usados sean menos discriminativos al tener menor peso.",
+        "d": "Sí, TFIDF tiene la ventaja de distribuir el peso relativo de cada término, de forma que los términos más usados sean más discriminativos al tener mayor peso.",
+        "correct": "c"
+    },
+    {
+        "Question": "¿El algoritmo NMF utiliza TF?",
+        "a": "No, NMF usa probabilidades de n-gramas.",
+        "b": "No, NMF usa TFIDF.",
+        "c": "Sí, con TF NMF construye las dos tablas necesarias para ejecutar el algoritmo.",
+        "d": "Sí, TF es la estructura común para entrenar los distintos algoritmos de topic modeling.",
+        "correct": "b"
+    },
+    {
+        "Question": "El sentiment analysis:",
+        "a": "Es la aplicación más conocida del clustering de textos.",
+        "b": "Utiliza poco clustering, ya que es una aplicación de text mining, fundamentalmente.",
+        "c": "Es, junto con el topic modelling, una de las dos técnicas de clustering más utilizadas.",
+        "d": "Es un ejemplo de clasificación de textos.",
+        "correct": "d"
+    },
+    {
+        "Question": "¿La lematización es el proceso por el que se obtiene la palabra primitiva de otra?",
+        "a": "Sí, excepto en el caso de los verbos.",
+        "b": "Sí, para cualquier tipo de palabra.",
+        "c": "No, con la lematización únicamente se eliminan los sufijos.",
+        "d": "No, con la lematización únicamente se eliminan los prefijos.",
+        "correct": "b"
+    },
+    {
+        "Question": "En un proyecto, se necesita implementar sentiment analysis para analizar documentos en castellano y en inglés. ¿Convendría implementar Vader?",
+        "a": "Sí, Vader es una herramienta multilingüe fácilmente adaptable.",
+        "b": "Sí, aunque Vader no es una herramienta multilingüe, es fácilmente adaptable a otros idiomas.",
+        "c": "Únicamente si se dispone del tiempo y de los recursos suficientes para construir y extender Vader.",
+        "d": "No, Vader únicamente sirve para inglés y no es posible usarla para otros idiomas.",
+        "correct": "c"
+    },
+    {
+        "Question": "¿Cuáles son las características de los almacenes de datos?",
+        "a": "Orientados a temas, no integrados, cambiantes en el tiempo, no volátiles.",
+        "b": "Orientados a temas, integrados, cambiantes en el tiempo, no volátiles.",
+        "c": "Orientados a temas, integrados, fijos en el tiempo, no volátiles.",
+        "d": "Orientados a temas, no integrados, fijos en el tiempo, volátiles.",
+        "correct": "b"
+    },
+    {
+        "Question": "¿Cuál de las siguientes afirmaciones es falsa?",
+        "a": "El proceso ETL permite unificar fuentes.",
+        "b": "El proceso ETL permite limpiar los datos, eliminando y corrigiendo errores.",
+        "c": "El proceso ETL permite estructurar y homogeneizar los datos.",
+        "d": "El proceso ETL permite garantizar la normalización de la base de datos.",
+        "correct": "d"
+    },
+    {
+        "Question": "El modelo de copo de nieve:",
+        "a": "Necesita más joins que otros modelos para consultar la información.",
+        "b": "Tiene una arquitectura más sencilla que el modelo en estrella.",
+        "c": "Consta de una tabla central de dimensiones rodeada de tablas de hechos.",
+        "d": "Suele crearse en base de datos no relacionales.",
+        "correct": "a"
+    },
+    {
+        "Question": "Se puede asociar el modelo de estrella con:",
+        "a": "Complejidad.",
+        "b": "Cumplimiento de las formas normales.",
+        "c": "Integridad referencial.",
+        "d": "Sencillez del modelo de datos.",
+        "correct": "d"
+    },
+    {
+        "Question": "¿Qué fase del proceso ETL se recomienda que albergue los procesos de data quality o calidad del dato?",
+        "a": "Fase de extracción.",
+        "b": "Fase de transformación.",
+        "c": "Fase de carga.",
+        "d": "Fase ingestión.",
+        "correct": "b"
+    },
+    {
+        "Question": "La integridad referencial se puede considerar una propiedad:",
+        "a": "Cuantitativa.",
+        "b": "Categórica.",
+        "c": "De integridad de la base de datos.",
+        "d": "De garantía de generación de cross joins.",
+        "correct": "c"
+    },
+    {
+        "Question": "¿Cuál de las siguientes tecnologías OLAP hace uso de bases de datos relacionales para la implementación de la capa física?",
+        "a": "MOLAP.",
+        "b": "ROLAP.",
+        "c": "GOLAP.",
+        "d": "NoSQL.",
+        "correct": "b"
+    },
+    {
+        "Question": "¿Qué modelo de almacén de datos propone data marts independientes?",
+        "a": "Data warehouse de Inmon.",
+        "b": "Data warehouse de Kimball.",
+        "c": "Diseño top-down.",
+        "d": "Enterprise data warehouse.",
+        "correct": "b"
+    },
+    {
+        "Question": "\"Manage data source\" en Pentaho Business Analytics permite:",
+        "a": "Acceder a los cubos generados.",
+        "b": "Acceder a los informes.",
+        "c": "Generar nuevas gráficas.",
+        "d": "Acceder a fuentes de datos para generar informes.",
+        "correct": "d"
+    },
+    {
+        "Question": "¿Cuál es la principal ventaja de PDI?",
+        "a": "Facilidad en el uso.",
+        "b": "Rapidez en la elaboración.",
+        "c": "Posibilidad de realizar ETL.",
+        "d": "Basado en la nube.",
+        "correct": "c"
+    },
+    {
+        "Question": "¿Qué símbolo representa el primer paso de un job en PDI?",
+        "a": "Una bandera.",
+        "b": "Un punto.",
+        "c": "Una casa (símbolo de inicio o home).",
+        "d": "Un triángulo verde (símbolo play).",
+        "correct": "c"
+    },
+    {
+        "Question": "¿Qué capas se pueden diferenciar en un sistema de inteligencia de negocio tradicional?",
+        "a": "Capa de integración, capa de aplicación, capa base de datos.",
+        "b": "Capa de presentación, capa de integración, capa de aplicación, capa base de datos.",
+        "c": "Capa de presentación, capa de aplicación, capa base de datos.",
+        "d": "Capa de almacenamiento distribuida, capa de integración y capa de aplicación.",
+        "correct": "c"
+    },
+    {
+        "Question": "¿Qué herramientas de Pentaho permiten diseñar ETL?",
+        "a": "Pan.",
+        "b": "Kitchen.",
+        "c": "Spoon.",
+        "d": "Report Analytics.",
+        "correct": "a"
+    },
+    {
+        "Question": "¿Cuál de las siguientes es una herramienta del ecosistema Hadoop?",
+        "a": "HBase.",
+        "b": "Animalkepper.",
+        "c": "S3.",
+        "d": "RDS.",
+        "correct": "a"
+    },
+    {
+        "Question": "¿Cuál de las siguientes afirmaciones sobre Spark es correcta?",
+        "a": "DAG y RDD son dos de las características principales de Spark.",
+        "b": "Los RDD se pueden actualizar en las distintas iteraciones.",
+        "c": "Spark soporta transformaciones y mutaciones.",
+        "d": "Los DAG son grafos que permiten ciclos.",
+        "correct": "a"
+    },
+    {
+        "Question": "¿Cuál de los siguientes escenarios es recomendable procesar en streaming?",
+        "a": "Recomendaciones en un site de comercio electrónico.",
+        "b": "Conteo de visitantes únicos en un site de comercio electrónico.",
+        "c": "Monitorización de producción de energía eólica.",
+        "d": "Todas las respuestas son correctas.",
+        "correct": "d"
+    },
+    {
+        "Question": "¿En qué modelo de servicio encajaría una aplicación como Dropbox?",
+        "a": "Software as a service (SaaS).",
+        "b": "Infrastructure as a service (IaaS).",
+        "c": "Container as a service (CaaS).",
+        "d": "Platform as a service (PaaS).",
+        "correct": "a"
+    },
+    {
+        "Question": "¿Qué componente de Spark permite trabajar con datos a través de consultas típicas de bases de datos relacionales?",
+        "a": "MLlib.",
+        "b": "Spark GraphX.",
+        "c": "Spark Streaming.",
+        "d": "Spark SQL.",
+        "correct": "d"
+    },
+    {
+        "Question": "Map, Filter o Reduce son funciones que se aplican en:",
+        "a": "Un RDD de Hive.",
+        "b": "Un RDD de Spark.",
+        "c": "Una función UDF de Pig.",
+        "d": "Una función UDF de Hive.",
+        "correct": "b"
+    },
+    {
+        "Question": "¿Qué herramienta se está utilizando si se lanza el comando disable 'nombre_tabla'?",
+        "a": "Pig.",
+        "b": "HBase.",
+        "c": "Sqoop.",
+        "d": "Hive.",
+        "correct": "b"
+    },
+    {
+        "Question": "¿Qué hace el comando val lines = sc.textFile('README.md')?",
+        "a": "Crear un job con Scala en Spark que almacena el archivo 'README.md'.",
+        "b": "Crear una RDD con Scala en Spark que almacena el archivo 'README.md'.",
+        "c": "Crear un job con PySpark que almacena el archivo 'README.md'.",
+        "d": "Crear una RDD con PySpark que almacena el archivo 'README.md'.",
+        "correct": "b"
+    },
+    {
+        "Question": "¿Qué demonio de HDFS solamente funciona en los nodos esclavos, y se encarga de gestionar la memoria dentro del nodo y del espacio en disco?",
+        "a": "NodeManager.",
+        "b": "NameNode.",
+        "c": "ApplicationMaster.",
+        "d": "ResourceManager.",
+        "correct": "a"
+    },
+    {
+        "Question": "¿Qué servicio de AWS, disponible en la nube para machine learning, está destinado al aprendizaje automático basado en NLP (natural language processing)?",
+        "a": "Amazon SageMaker.",
+        "b": "Amazon Rekognition.",
+        "c": "Amazon Comprehend.",
+        "d": "Amazon Lex.",
+        "correct": "c"
+    },
+    {
+        "Question": "YARN:",
+        "a": "Implementa un gestor de recursos externos para todos los frameworks de Hadoop.",
+        "b": "Permite el acceso a los datos de HDFS a programas que no estén desarrollados en Hadoop.",
+        "c": "Permite a múltiples NameNodes con sus propios namespaces compartir el pool de DataNodes.",
+        "d": "Usa el JournalNode para decidir el NameNode activo.",
+        "correct": "a"
+    },
+    {
+        "Question": "¿Cuál de las siguientes afirmaciones es correcta?",
+        "a": "Spark permite implementar programas que requieren funcionalidad de machine learning sobre streams de datos.",
+        "b": "Spark no permite desarrollar procesamientos batch.",
+        "c": "Si SQL es un requisito, es necesario buscar una alternativa a Spark.",
+        "d": "Todas las opciones son correctas.",
+        "correct": "a"
+    },
+    {
+        "Question": "¿Qué modelo de servicios en la nube se encuentra en el lugar más bajo en la pirámide?",
+        "a": "Software as a service (SaaS).",
+        "b": "Infrastructure as a service (IaaS).",
+        "c": "Container as a service (CaaS).",
+        "d": "Platform as a service (PaaS).",
+        "correct": "b"
+    },
+    {
+        "Question": "El modelo de replicación maestro-esclavo en las bases de datos NoSQL:",
+        "a": "Ayuda en la escalabilidad de lectura, pero no en la escalabilidad de escritura.",
+        "b": "Ayuda en la escalabilidad de escritura, pero no en la escalabilidad de lectura.",
+        "c": "Ayuda tanto en la escalabilidad de lectura como en la escalabilidad de escritura.",
+        "d": "No aporta nada a la escalabilidad.",
+        "correct": "a"
+    },
+    {
+        "Question": "¿Cuál es el operador de MongoDB que añade elementos al final de un array, si existe, o bien crea uno nuevo, si no existe?",
+        "a": "El operador $set.",
+        "b": "El operador $unset.",
+        "c": "El operador $unpush.",
+        "d": "El operador $push.",
+        "correct": "d"
+    },
+    {
+        "Question": "En Cassandra, ¿cómo se denomina el archivo en disco al cual se envían los datos desde una mem-table cuando sus contenidos superan un valor previamente establecido?",
+        "a": "SStable.",
+        "b": "Filtro Bloom.",
+        "c": "Supercolumna.",
+        "d": "BigTable.",
+        "correct": "a"
+    },
+    {
+        "Question": "Sobre la cláusula RETURN de Cypher:",
+        "a": "Puede usarse en cualquier construcción.",
+        "b": "Puede usarse en todas las consultas, salvo con CREATE.",
+        "c": "Puede usarse solo con CREATE.",
+        "d": "Es una cláusula que se ha eliminado de Cypher.",
+        "correct": "b"
+    },
+    {
+        "Question": "En Redis, ¿para qué sirve el comando PFADD?",
+        "a": "Para eliminar una cadena de HyperLogLog.",
+        "b": "Para modificar una cadena de HyperLogLog.",
+        "c": "Para dividir una cadena de HyperLogLog.",
+        "d": "Para añadir una o más cadenas a HyperLogLog.",
+        "correct": "d"
+    },
+    {
+        "Question": "¿Para qué sirve Zookeeper?",
+        "a": "Para administrar y coordinar a los brokers.",
+        "b": "Para gestionar el tráfico de red.",
+        "c": "Para contabilizar el número de mensajes enviados.",
+        "d": "Para realizar copias de seguridad en bases de datos NoSQL.",
+        "correct": "a"
+    },
+    {
+        "Question": "En Flume, ¿qué es una fuente?",
+        "a": "El componente que envía los datos a los generadores de datos.",
+        "b": "El componente que recibe los datos de los generadores de datos y los transfiere en forma de eventos.",
+        "c": "El componente que permite configurar los generadores de datos.",
+        "d": "Un archivo de configuración.",
+        "correct": "b"
+    },
+    {
+        "Question": "¿Para qué sirve el comando FLUSHD?",
+        "a": "Para reiniciar una base de datos a su estado original y dejarla limpia.",
+        "b": "Para crear la base de datos por defecto test.",
+        "c": "Para mostrar las estadísticas de uso de la base de datos.",
+        "d": "Para eliminar una base de datos.",
+        "correct": "a"
+    },
+    {
+        "Question": "¿A qué se refiere el factor de replicación?",
+        "a": "Al factor que indica el número de esquemas que tiene una base de datos relacional.",
+        "b": "Al número de réplicas que se realizan en un sistema.",
+        "c": "Al factor que indica cómo de grave es el problema de la impedancia.",
+        "d": "Al número de procesadores en uso.",
+        "correct": "b"
+    },
+    {
+        "Question": "¿Cuál o cuáles de las siguientes son bases de datos orientadas a agregados?",
+        "a": "Documentales y orientadas a grafos.",
+        "b": "Documentales y clave-valor.",
+        "c": "Clave-valor, orientadas a grafos y orientadas a columnas.",
+        "d": "Relacionales.",
+        "correct": "b"
+    },
+    {
+        "Question": "En MongoDB, ¿para qué sirve el comando UpdateMany?",
+        "a": "Para actualizar los valores que correspondan con el parámetro filtro.",
+        "b": "Para actualizar todos los valores de la base de datos.",
+        "c": "Para actualizar los parámetros de conexión con la base de datos.",
+        "d": "Para eliminar los valores que correspondan con el parámetro filtro.",
+        "correct": "a"
+    },
+    {
+        "Question": "¿En cuál de las siguientes se utiliza un modelo de arquitectura de distribución peer-to-peer a través de los nodos?",
+        "a": "Cassandra.",
+        "b": "MongoDB.",
+        "c": "Apache Flume.",
+        "d": "Neo4j.",
+        "correct": "b"
+    },
+    {
+        "Question": "¿Cómo se pueden eliminar los logs en Kafka?",
+        "a": "$sudo rm /tmp/kafka-logs/*.",
+        "b": "En Kafka no existen logs.",
+        "c": "Los logs se eliminan solos.",
+        "d": "Los logs solo se pueden eliminar desde la ventana de administración.",
+        "correct": "a"
+    },
+    {
+        "Question": "Apache Kafka es un sistema de mensajería que permite:",
+        "a": "La creación de grafos.",
+        "b": "Crear un diccionario tipo clave-valor.",
+        "c": "Transferir datos de una aplicación a otra de forma transparente.",
+        "d": "Mover datos de MongoDB a Cassandra.",
+        "correct": "c"
+    },
+    {
+        "Question": "En una organización analítica basada en centros de competencia:",
+        "a": "El centro de excelencia define las políticas corporativas, la organización de datos y metodologías.",
+        "b": "El centro de excelencia define las políticas corporativas, la organización de datos y metodologías, pero las técnicas y herramientas son definidas por cada área funcional.",
+        "c": "Tienen el problema de que es difícil gestionar la compartición de conocimiento.",
+        "d": "Existe un equipo distribuido que da soporte a las áreas funcionales.",
+        "correct": "a"
+    },
+    {
+        "Question": "Dentro de los usuarios que explotan información:",
+        "a": "Un usuario avanzado es capaz de generar sus propios informes y cuadros de mando adaptándose a sus necesidades.",
+        "b": "Un usuario avanzado es responsable de ejecutar modelos analíticos para extraer valor.",
+        "c": "Un analista de datos prepara los datos para que un data scientist aplique los modelos.",
+        "d": "Un usuario estándar habitualmente requiere una explotación mayor que un cuadro de mandos o informe corporativo.",
+        "correct": "a"
+    },
+    {
+        "Question": "En el ciclo de vida de un proyecto analítico, la etapa de industrialización:",
+        "a": "Consiste en ejecutar el modelo de forma periódica.",
+        "b": "Consiste en proporcionar un report a las áreas de negocio y TIC respecto al rendimiento del modelo.",
+        "c": "Consiste en analizar de forma automática los resultados y reentrenar al modelo en caso necesario.",
+        "d": "Consiste en incorporar el modelo en la estructura corporativa de la organización, incluyendo validación del proceso, control y automatización.",
+        "correct": "d"
+    },
+    {
+        "Question": "A la hora de decidir entre BI o big data:",
+        "a": "Los sistemas descriptivos están más pensados con una infraestructura big data.",
+        "b": "Los sistemas prescriptivos pueden implementarse con cualquier tecnología.",
+        "c": "La tecnología big data está más pensada para sistemas predictivos o prescriptivos.",
+        "d": "Los sistemas descriptivos ya no se implementan hoy en día, sino sistemas predictivos y prescriptivos.",
+        "correct": "c"
+    },
+    {
+        "Question": "En la distribución de la pirámide informacional, los datos crudos deben transformarse en información y la información, en conocimiento. ¿Y en qué debe transformarse el conocimiento?",
+        "a": "En sabiduría.",
+        "b": "En KPI.",
+        "c": "En inteligencia.",
+        "d": "En ventaja competitiva.",
+        "correct": "b"
+    },
+    {
+        "Question": "Entre los proyectos de big data asociados al área de marketing y ventas, se encuentran:",
+        "a": "Identificar fraudes y mantenimiento predictivo.",
+        "b": "Optimización de flota y stock.",
+        "c": "Mapas de calor, venta cruzada y redes sociales.",
+        "d": "Análisis de tendencia.",
+        "correct": "c"
+    },
+    {
+        "Question": "¿Cuál fue uno de los aspectos clave que trabajó Amazon en el análisis de los datos?",
+        "a": "Identificar que los libros tienen bajas devoluciones.",
+        "b": "Predecir el auge del libro electrónico.",
+        "c": "Incorporar el sistema de compras 1-clic.",
+        "d": "Transformar eventos de navegación en información útil.",
+        "correct": "d"
+    },
+    {
+        "Question": "¿Qué ha permitido el auge del big data?",
+        "a": "El crecimiento de las redes sociales.",
+        "b": "El desarrollo de múltiples plataformas y soluciones disponibles.",
+        "c": "La expansión de internet.",
+        "d": "El registro de datos no estructurados.",
+        "correct": "b"
+    },
+    {
+        "Question": "¿A qué se debe, habitualmente, el fracaso en un proyecto de big data?",
+        "a": "A versiones desactualizadas de software, carencia de objetivos claros y falta de compromiso de la alta dirección.",
+        "b": "A carencia de objetivos claros, falta de compromiso de la alta dirección y ausencia de talento.",
+        "c": "A falta de compromiso de la alta dirección, ausencia de talento y procesar datos de múltiples fuentes.",
+        "d": "A ausencia de procesamiento en tiempo real, lago de datos mal configurado y mantener en paralelo los procesos de business intelligence.",
+        "correct": "b"
+    },
+    {
+        "Question": "Suponiendo que en los últimos ocho sprints el equipo Scrum al que perteneces ha completado 85 puntos de historia en total, si al mismo equipo se le solicita que comience a trabajar en un nuevo proyecto que se estima que tendrá 64 puntos de historia, ¿cuántos sprints estimas que serán necesarios para que este equipo Scrum pueda completar el proyecto?",
+        "a": "Cinco.",
+        "b": "Siete.",
+        "c": "Ocho.",
+        "d": "Diez.",
+        "correct": "b"
+    },
+    {
+        "Question": "El equipo de Agile/Scrum no puede rechazar historias de usuario propuestas por el product owner:",
+        "a": "Correcto, el product owner decide qué historias de usuario se entregan en cada sprint y no permite que una historia de usuario sea rechazada por el equipo.",
+        "b": "Correcto, el product owner escuchará la opinión del equipo, pero, si no le convence, puede rechazar la historia de usuario a su antojo.",
+        "c": "Incorrecto, el equipo es el que decide qué se implementará en cada sprint y si se compromete a llevar a cabo cada historia de usuario.",
+        "d": "Incorrecto, el equipo puede rechazar una historia de usuario justificando falta de información o un 'done is done' no definido o incorrecto.",
+        "correct": "d"
+    },
+    {
+        "Question": "Cuando el equipo Scrum finaliza un sprint y el resultado es desastroso, cuando ninguna de las historias planificadas se ha completado y la revisión se tuvo que cancelar, si el equipo ejecutivo desea comprender de quién es la responsabilidad de este fracaso, ¿quién se puede considerar único responsable de este fracaso en el sprint?",
+        "a": "El dueño del producto (product owner).",
+        "b": "El Scrum master.",
+        "c": "La alta gerencia.",
+        "d": "El equipo.",
+        "correct": "d"
+    },
+    {
+        "Question": "¿Cuál es el objetivo último que persigue la protección de datos?",
+        "a": "Garantizar el derecho de las personas a no recibir publicidad no solicitada.",
+        "b": "Que las personas conozcan en todo momento quién y con qué fines está utilizando sus datos personales.",
+        "c": "Que las personas decidan en todo momento quién y con qué fines puede utilizar sus datos personales.",
+        "d": "Las opciones b y c son correctas.",
+        "correct": "d"
+    },
+    {
+        "Question": "¿Qué técnicas de machine learning se entrenan con datos ya etiquetados?",
+        "a": "Aprendizaje no supervisado.",
+        "b": "Aprendizaje supervisado.",
+        "c": "Regresión lineal.",
+        "d": "Ninguna de las anteriores.",
+        "correct": "b"
+    },
+    {
+        "Question": "¿Qué ofrecen los RDD de forma arquitectónica?",
+        "a": "Se guardan únicamente en memoria.",
+        "b": "Se distribuyen a lo largo de diferentes clústeres, sin tolerancia a fallos.",
+        "c": "Se distribuyen a lo largo de diferentes clústeres, con tolerancia a fallos.",
+        "d": "Se guardan en un único disco.",
+        "correct": "c"
+    },
+    {
+        "Question": "¿Cuál es la principal diferencia entre Spark Streaming y Structured Streaming?",
+        "a": "El primero es un componente de Spark y el segundo, del ecosistema Hadoop.",
+        "b": "El primero trabaja sobre RDD mientras que el segundo lo hace sobre DataFrames.",
+        "c": "El primero trabaja sobre DataFrames mientras que el segundo lo hace sobre RDD.",
+        "d": "Ninguna, son dos formas diferentes de referirse a lo mismo.",
+        "correct": "b"
+    },
+    {
+        "Question": "¿Cuál es uno de los componentes del ecosistema Hadoop enfocado a machine learning?",
+        "a": "Giraph.",
+        "b": "Mahout.",
+        "c": "Hive.",
+        "d": "HDFS.",
+        "correct": "b"
+    },
+    {
+        "Question": "¿Qué significa el concepto de lazy evaluation?",
+        "a": "El código no se ejecuta, funciona como un comentario.",
+        "b": "El código se evalúa de forma más lenta por el procesador.",
+        "c": "El código solo se ejecuta cuando realmente se necesita.",
+        "d": "Ninguna de las anteriores.",
+        "correct": "c"
+    },
+    {
+        "Question": "Según lo visto en el notebook, dentro de los componentes de un pipeline, ¿cuál de ellos se aplica sobre un DataFrame para obtener otro?",
+        "a": "Transformer.",
+        "b": "Estimador.",
+        "c": "Parameter.",
+        "d": "Ninguna de las anteriores.",
+        "correct": "a"
+    },
+    {
+        "Question": "Según lo visto en el notebook, ¿cómo se pueden aplicar funciones definidas por el usuario sobre un DataFrame?",
+        "a": "Utilizando SparkSQL.select().",
+        "b": "Utilizando UDF.",
+        "c": "Utilizando MulticlassClassificationEvaluator.",
+        "d": "Utilizando VectorAssembler.",
+        "correct": "b"
+    },
+    {
+        "Question": "¿Cuál de las siguientes tendencias no está relacionada con el crecimiento de la tecnología IoT?",
+        "a": "Aumentar el tamaño del monitor a lo largo del tiempo.",
+        "b": "Incrementar el rendimiento de computación a lo largo del tiempo.",
+        "c": "Disminuir el tamaño del ordenador a lo largo del tiempo.",
+        "d": "Disminuir el coste del ordenador a lo largo del tiempo.",
+        "correct": "a"
+    },
+    {
+        "Question": "¿Cuál de los siguientes es un actuador?",
+        "a": "Un servomotor.",
+        "b": "Un termómetro.",
+        "c": "Un led.",
+        "d": "Una cámara CMOS.",
+        "correct": "a"
+    },
+    {
+        "Question": "¿Cuáles de los siguientes protocolos están destinados únicamente a la industria IoT?",
+        "a": "HTTP.",
+        "b": "CoAP.",
+        "c": "SOAP.",
+        "d": "WebSocket.",
+        "correct": "b"
+    },
+    {
+        "Question": "¿Qué red de telecomunicaciones cuenta con mayor disponibilidad?",
+        "a": "GSM/GPRS.",
+        "b": "WiFi.",
+        "c": "ZigBee.",
+        "d": "LoRa.",
+        "correct": "a"
+    },
+    {
+        "Question": "Los puntos Datum son:",
+        "a": "Puntos tangentes al elipsoide y al geoide terrestre, coincidiendo ambos.",
+        "b": "Puntos con información no espacial en R.",
+        "c": "Puntos centroides de un pentágono.",
+        "d": "Puntos centroides de un pentágono.",
+        "correct": "a"
+    },
+    {
+        "Question": "La función geocode de R permite:",
+        "a": "Sacar el mapa geográfico a partir un objeto espacial.",
+        "b": "Acceder a la API de Google Maps.",
+        "c": "Obtener el centro geométrico de un polígono.",
+        "d": "Obtener el centro geométrico de un polígono.",
+        "correct": "b"
+    },
+    {
+        "Question": "El uso del operador + junto con las funciones de la librería tmap sirve para:",
+        "a": "Hacer joins espaciales con los datos del mapa.",
+        "b": "Hacer joins de datos no espaciales con los datos del mapa.",
+        "c": "Añadir distintas capas al mapa.",
+        "d": "Añadir distintas capas al mapa.",
+        "correct": "c"
+    },
+    {
+        "Question": "Para hacer joins correctos usando como criterio los datos espaciales de dos objetos, es necesario previamente:",
+        "a": "Proyectar ambos objetos con el mismo código EPSG si no lo tienen ya.",
+        "b": "Homogeneizar ambos objetos cambiando el CRS con la función del mismo nombre.",
+        "c": "Homogenizar ambos objetos convirtiéndolos en un mapa con la librería tmap.",
+        "d": "Homogenizar ambos objetos convirtiéndolos en un mapa con la librería tmap.",
+        "correct": "a"
     }
 ]
 
