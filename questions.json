@@ -198,6 +198,118 @@
         "c": "Las tecnologías de inteligencia de negocio se integran con big data y viceversa.",
         "d": "El uso de técnicas de machine learning es exclusivo de big data.",
         "correct": "b"
+    },
+    {
+        "Question": "¿Qué índice se utiliza para crear un árbol de decisión mediante el algoritmo CART?",
+        "a": "Entropía.",
+        "b": "Clasificación.",
+        "c": "Índice de Gini.",
+        "d": "Coeficiente de indeterminación.",
+        "correct": "c"
+    },
+    {
+        "Question": "¿Qué quieren decir las siglas KDD?",
+        "a": "Knowledge databases in discovery.",
+        "b": "Knowledge discovery in databases.",
+        "c": "Know discovery in databases.",
+        "d": "Know databases in discovery.",
+        "correct": "b"
+    },
+    {
+        "Question": "¿En qué paso del proceso KDD se establecen las variables que se utilizarán?",
+        "a": "Procesado.",
+        "b": "Minería.",
+        "c": "Transformación.",
+        "d": "Selección.",
+        "correct": "d"
+    },
+    {
+        "Question": "¿Cuál de las siguientes es una medida de error para problemas de regresión?",
+        "a": "Error absoluto medio.",
+        "b": "Coeficiente de indeterminación.",
+        "c": "Error cuadrático con mediana.",
+        "d": "Índice de Gini.",
+        "correct": "a"
+    },
+    {
+        "Question": "¿Cómo se ha de representar el error absoluto medio si se desea controlarlo al trabajar con Python?",
+        "a": "Como mean_absolute_error.",
+        "b": "Como median_absolute_error.",
+        "c": "Como mean_squared_error.",
+        "d": "Como median_squared_error.",
+        "correct": "a"
+    },
+    {
+        "Question": "¿Cuántos coeficientes se deben estimar en un modelo de regresión lineal simple con una sola variable independiente x?",
+        "a": "Uno.",
+        "b": "Cuatro.",
+        "c": "Tres.",
+        "d": "Dos.",
+        "correct": "d"
+    },
+    {
+        "Question": "¿Cuál es el número máximo de características requeridas para la creación de un clúster con k-means?",
+        "a": "Una.",
+        "b": "Dos.",
+        "c": "Cuatro.",
+        "d": "No hay límite.",
+        "correct": "d"
+    },
+    {
+        "Question": "¿Cuál de las siguientes distancias no se puede utilizar en problemas de clúster?",
+        "a": "La distancia Minkowski.",
+        "b": "El seno.",
+        "c": "La correlación.",
+        "d": "La distancia euclidiana.",
+        "correct": "b"
+    },
+    {
+        "Question": "¿Qué tipo de características establecen la dispersión en percentiles?",
+        "a": "Las cuantitativas.",
+        "b": "Las categóricas.",
+        "c": "Las ordinales.",
+        "d": "Todas las opciones son correctas.",
+        "correct": "c"
+    },
+    {
+        "Question": "Las variables categóricas:",
+        "a": "Son aquellas cuyos campos son cadenas de texto.",
+        "b": "Requieren de variables dummy para su uso en modelos.",
+        "c": "Admiten la utilización del algoritmo k-means.",
+        "d": "Son siempre ordinales.",
+        "correct": "b"
+    },
+    {
+        "Question": "¿Qué aproximación de Python y 'sklearn.preprocessing' se utiliza para eliminar los valores atípicos en la normalización de características?",
+        "a": "MaxMinScaler.",
+        "b": "MinMaxScaler.",
+        "c": "StandardScaler.",
+        "d": "RobustScaler.",
+        "correct": "d"
+    },
+    {
+        "Question": "¿Cómo se llama a la cantidad de datos de entrada que se utiliza en cada iteración del entrenamiento?",
+        "a": "Epochs.",
+        "b": "Batch_size.",
+        "c": "Pesos.",
+        "d": "Bins.",
+        "correct": "b"
+    },
+    {
+        "Question": "Las características booleanas son un caso particular de las características:",
+        "a": "Cuantitativas.",
+        "b": "Ordinales.",
+        "c": "Categóricas.",
+        "d": "Continuas.",
+        "correct": "c"
+    },
+    {
+        "Question": "¿Qué algoritmo permite generar reglas de asociación a partir de bases de datos que contienen transacciones?",
+        "a": "Eclat.",
+        "b": "FP-Growth.",
+        "c": "Apriori.",
+        "d": "Dropout.",
+        "correct": "c"
     }
 ]
 
