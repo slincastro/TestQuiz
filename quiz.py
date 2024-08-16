@@ -20,7 +20,7 @@ def quiz():
 
     while questions:
         question = random.choice(questions)
-        print(f"\n Respuestas correctas: {correct_answers} \n")
+        print(f"\n Respuestas correctas seguidas : {correct_answers} \n")
 
         correct = ask_question(question)
         
